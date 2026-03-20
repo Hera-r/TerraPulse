@@ -74,5 +74,4 @@ REFERRER_POLICY = 'strict-origin-when-cross-origin'
 # SECURE_HSTS_PRELOAD = True
 
 NEWS_API_KEY = config('NEWS_API_KEY', default='')
-GEMINI_API_KEY = config('GEMINI_API_KEY', default='')
 APP_URL = config('APP_URL', default='http://127.0.0.1:8000')
