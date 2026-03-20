@@ -30,6 +30,10 @@ Tableau de bord éco en temps réel : actualités climatiques, marchés boursier
 ```bash
 git clone git@github.com:Hera-r/TerraPulse.git
 cd TerraPulse
+
+python3 -m venv .venv
+source .venv/bin/activate   # Windows : .venv\Scripts\activate
+
 pip install -r requirements.txt
 cp .env.example .env
 python manage.py migrate
@@ -83,6 +87,10 @@ Real-time eco dashboard: climate news, green stock markets, air quality, weather
 ```bash
 git clone git@github.com:Hera-r/TerraPulse.git
 cd TerraPulse
+
+python3 -m venv .venv
+source .venv/bin/activate   # Windows: .venv\Scripts\activate
+
 pip install -r requirements.txt
 cp .env.example .env
 python manage.py migrate

@@ -7,6 +7,8 @@ __pycache__/
 *.pyo
 *.pyd
 .Python
+.venv/
+venv/
 
 # Django
 db.sqlite3
