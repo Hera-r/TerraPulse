@@ -5,7 +5,7 @@ from api.services.geo import get_geo
 from api.services.weather import get_weather, get_air_quality
 from api.services.stocks import get_green_stocks, get_stock_history, VALID_TICKERS
 from api.services.news import get_climate_news
-from api.services.trading_bot import get_signals
+from api.services.signals import get_signals
 
 VALID_LANGS = {'en', 'fr'}
 
