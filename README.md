@@ -14,7 +14,7 @@ Tableau de bord éco en temps réel : actualités climatiques, marchés boursier
 ### Fonctionnalités
 
 - **Météo et qualité de l'air** - Open-Meteo, détection automatique par géolocalisation IP
-- **Cours verts en direct** - Tesla, First Solar, Vestas, Rivian, NextEra, Beyond Meat via Yahoo Finance
+- **Cours verts en direct** - BYD, First Solar, Vestas, Rivian, NextEra, Beyond Meat via Yahoo Finance
 - **Actualités climatiques** - Le Monde / BBC Science & Environment (RSS) ou NewsAPI.org (clé optionnelle)
 - **Analyse de signaux** - Indicateurs RSI et moyennes mobiles sur les actions vertes
 - **Bilingue** - Français ou anglais détecté automatiquement selon le pays de l'utilisateur
@@ -67,7 +67,7 @@ Real-time eco dashboard: climate news, green stock markets, air quality, weather
 ### Features
 
 - **Weather and air quality** - Open-Meteo API, auto-detected by IP geolocation
-- **Green stock ticker** - Tesla, First Solar, Vestas, Rivian, NextEra Energy, Beyond Meat via Yahoo Finance
+- **Green stock ticker** - BYD, First Solar, Vestas, Rivian, NextEra Energy, Beyond Meat via Yahoo Finance
 - **Climate news feed** - Le Monde / BBC Science & Environment (RSS), or NewsAPI.org with a free key
 - **Signal analysis** - RSI and moving average indicators on green stocks
 - **Bilingual** - Automatic French/English detection based on user's country

@@ -6,8 +6,9 @@ HISTORY_CACHE_KEY = 'stock_history_{ticker}'
 CACHE_TTL = 300
 
 GREEN_TICKERS = [
-    {'ticker': 'TSLA',   'name': 'Tesla',         'sector': 'EV'},
     {'ticker': 'FSLR',   'name': 'First Solar',   'sector': 'Solar'},
+    {'ticker': 'TSLA',   'name': 'Tesla',         'sector': 'EV'},
+    {'ticker': '1211.HK','name': 'BYD',           'sector': 'EV'},
     {'ticker': 'VWS.CO', 'name': 'Vestas',        'sector': 'Wind'},
     {'ticker': 'RIVN',   'name': 'Rivian',        'sector': 'EV'},
     {'ticker': 'BYND',   'name': 'Beyond Meat',   'sector': 'Food'},

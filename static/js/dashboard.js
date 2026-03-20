@@ -9,7 +9,7 @@
 let lang = 'en';
 let allArticles = [];
 let allSignals  = [];
-let currentTicker = 'TSLA';
+let currentTicker = 'FSLR';
 let refreshTimer  = null;
 
 /* =============================================
