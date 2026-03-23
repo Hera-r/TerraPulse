@@ -35,7 +35,19 @@ python3 -m venv .venv
 source .venv/bin/activate   # Windows : .venv\Scripts\activate
 
 pip install -r requirements.txt
-cp .env.example .env
+```
+
+Créer un fichier `.env` à la racine du projet :
+```env
+DEBUG=False
+SECRET_KEY=CHANGE_THIS_TO_A_LONG_RANDOM_STRING
+ALLOWED_HOSTS=yourdomain.com,www.yourdomain.com
+APP_URL=https://yourdomain.com
+NEWS_API_KEY=
+```
+
+Puis lancer :
+```bash
 python manage.py migrate
 python manage.py runserver
 ```
@@ -92,7 +104,19 @@ python3 -m venv .venv
 source .venv/bin/activate   # Windows: .venv\Scripts\activate
 
 pip install -r requirements.txt
-cp .env.example .env
+```
+
+Create a `.env` file at the project root:
+```env
+DEBUG=False
+SECRET_KEY=CHANGE_THIS_TO_A_LONG_RANDOM_STRING
+ALLOWED_HOSTS=yourdomain.com,www.yourdomain.com
+APP_URL=https://yourdomain.com
+NEWS_API_KEY=
+```
+
+Then run:
+```bash
 python manage.py migrate
 python manage.py runserver
 ```
