@@ -1,0 +1,9 @@
+#!/bin/sh
+set -e
+
+mkdir -p /app/data
+python manage.py makemigrations --noinput
+python manage.py migrate --noinput
+python manage.py collectstatic --noinput 2>/dev/null || true
+
+exec "$@"
