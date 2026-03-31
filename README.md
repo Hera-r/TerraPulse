@@ -50,8 +50,6 @@ make
 ```
 This single command will build the Docker image, start the container, and run the database migrations automatically.
 
-Open [http://127.0.0.1:8000](http://127.0.0.1:8000)
-
 **Useful commands:**
 - `make logs`: View real-time container logs
 - `make down`: Stop the application
@@ -120,8 +118,6 @@ Puis lancer le projet via le Makefile :
 make
 ```
 Cette commande unique compile l'image Docker, démarre le conteneur et exécute les migrations de base de données automatiquement.
-
-Ouvrir [http://127.0.0.1:8000](http://127.0.0.1:8000)
 
 **Commandes utiles :**
 - `make logs` : Voir les logs en temps réel
